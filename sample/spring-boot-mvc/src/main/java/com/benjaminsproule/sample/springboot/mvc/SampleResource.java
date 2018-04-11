@@ -13,4 +13,10 @@ public class SampleResource {
     public String home() {
         return "{\"Hello\": \"World!\"}";
     }
+
+    @RequestMapping(method = RequestMethod.GET, path = "/customModel", produces = "application/json")
+    @ApiOperation(value = "Return custom model", response = CustomModel.class)
+    public CustomModel customModel() {
+        return new CustomModel();
+    }
 }

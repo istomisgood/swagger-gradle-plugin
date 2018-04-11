@@ -58,5 +58,6 @@ swagger {
         securityDefinition {
             json = 'securityDefinition.json'
         }
+        modelSubstitute = 'models.txt'
     }
 }

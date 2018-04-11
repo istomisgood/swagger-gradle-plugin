@@ -1,0 +1,1 @@
+com.benjaminsproule.sample.springboot.mvc.CustomProperty : java.lang.String
